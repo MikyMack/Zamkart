@@ -2,7 +2,7 @@
     --fw-light:           400;
 
     /* Primary Color */
-    --color-one:                        #B90808;
+    --color-one:                        #C9C2C2;
     --color-one-rgb:                    185, 8, 8;
     
 
@@ -68,7 +68,7 @@
 
 
     --link-color:                      #000000;
-    --link-color-hover:                #B90808;
+    --link-color-hover:                #C9C2C2;
 
     --gradient-two: linear-gradient(90deg, var(--color-dark-thirteen) 0%, var(--color-dark-one) 100%);
     --gradient-two-alt: linear-gradient(90deg, var(--color-dark-one) 0%, var(--color-dark-thirteen) 100%);

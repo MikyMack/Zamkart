@@ -28,6 +28,7 @@
 .header .logo a img {
   width: 100%;
   transition: var(--transition-base);
+  height: 80px;
 }
 
 .logo a.dark_logo {
@@ -451,7 +452,7 @@
 
 .aside_info_wrapper {
   padding: 30px 65px;
-  background: var(--color-black);
+  background-color: #7F8C94;
   max-width: 400px;
   height: 100%;
   text-align: center;
@@ -542,7 +543,7 @@
 }
 
 .aside_info_wrapper .wptb-icon-box1.style2 .wptb-item--icon {
-  color: var(--color-muted);
+  color: white;
   border-color: var(--color-muted);
 }
 
@@ -683,7 +684,9 @@
   line-height: var(--fs-24);
   width: 100%;
 }
-
+.wptb-item--description a:hover{
+  color: white;
+}
 .mr_menu ul.main-menu li a {
   list-style: none;
   position: relative;
@@ -703,7 +706,7 @@
 }
 
 .mr_menu ul.main-menu li.current > a, .mr_menu ul.main-menu li.active > a, .mr_menu ul.main-menu li:hover > a {
-  color: rgba(var(--color-white-rgb), 1);
+  color: rgba(var(--color-white-rgb), 0.8);
 }
 
 .mr_menu ul.main-menu li a::before {
@@ -1083,7 +1086,7 @@ body.overlay_menu_active .wptb-overlay-contact {
   transform: perspective(300px) rotateX(0deg);
   transform-origin: top;
   position: fixed !important;
-  background-color: rgba(var(--color-black-rgb), 0.8);
+  background-color: #C9C2C2;
 }
 
 .header.sticky .header-top {

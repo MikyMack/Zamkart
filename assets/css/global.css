@@ -157,7 +157,7 @@
 
     /* Theme Colors */
     /* Primary Color */
-    --color-one:                        #B90808;
+    --color-one:                        #C9C2C2 ;
     --color-one-rgb:                    185, 8, 8;
 
     /* Index 4 */
@@ -274,7 +274,7 @@
 
 
     --link-color:                      #FFFFFF;
-    --link-color-hover:                #B90808;
+    --link-color-hover:                #000000;
     
     --gradient-color-from: #43FFEC;
     --gradient-color-center: #FFB84D;
@@ -333,6 +333,7 @@ html {
     scroll-behavior: smooth;
     font-size: 100%;
     overflow-x: hidden;
+    
 }
 body {
     position: relative;
@@ -354,6 +355,7 @@ body {
 
 body:has(.sidebar) {
     overflow-x: initial;
+    
 }
 
 /* @media screen and (max-width: 1199.98px){

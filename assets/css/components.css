@@ -604,7 +604,7 @@ Ready Components Stylesheet
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active, 
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-	background-color: var(--color-one);
+	background-color: #7F8C94;;
 }
 
 /* Swiper Pagination Two */
@@ -952,7 +952,7 @@ Ready Components Stylesheet
     font-weight: var(--fw-semibold);
     counter-increment: numbers;
     content: "0"counter(numbers);
-    color: var(--color-one);
+
     position: absolute;
     bottom: calc(100% + 20px);
     opacity: 0;
