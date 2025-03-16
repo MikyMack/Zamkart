@@ -1697,7 +1697,7 @@ color: black!important;
     width: 400px;
 }
 .footer-main{
-    background-color: #9b9b9b;
+    background-color: var(--elite-secondary);
     color: black!important;
     padding-top: 0px!important;
 }
@@ -1809,7 +1809,7 @@ gap: 550px;
 
 }
 .footer-nav ul li a,.widget-title,.copyright p a,.ft-social li a{
-    color: black!important;
+    color: white!important;
 }
 .ft-social li a{
     border:1px solid black!important;
