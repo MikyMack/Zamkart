@@ -1616,12 +1616,20 @@ body.theme-style--olive {
 }
 
 .main-menu li a{
-color: black!important;
+color: white!important;
 }
 
 .banner-text{
     font-size: 88px!important;
-    color:#7F8C94!important ;
+    color:white!important ;
+}
+.banner-main-text,.title{
+    background: linear-gradient(180deg, #f1c27d 0%, #dbaf57 50%, #a6752c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  
+
 }
 @media(max-width:700px){
     .banner-main-text{
@@ -1634,7 +1642,7 @@ color: black!important;
 
 }
 .banner-main{
-    background:#C9C2C2!important;
+    background:black!important;
 }
 .banner-logo{
     border-radius: 10px;
@@ -1655,13 +1663,13 @@ color: black!important;
 
 }
 .about-main{
-    background-color:#7F8C94!important ;
+    background-color:black!important ;
 }
 .expbtn:hover{
     color: black;
 }
 .wrapper{
-    background-color: #C9C2C2;
+    background-color: black;
 
 }
 .hm-prdct-img img{
@@ -1708,11 +1716,11 @@ color: black!important;
     width: 130px;
 }
 .ft-btn{
-    background-color: var(--elite-secondary);
+    background: linear-gradient(180deg, #f1c27d 0%, #dbaf57 50%, #a6752c 100%);
     color: white;
 }
 .ft-btn:hover{
-    color: black!important;
+    color: white!important;
 
 
 }
@@ -1815,7 +1823,7 @@ gap: 550px;
     border:1px solid black!important;
 }
 .navbtn button{
-    background-color: var(--elite-secondary);
+    background: linear-gradient(180deg, #f1c27d 0%, #dbaf57 50%, #a6752c 100%);
     color: white;
     border: none;
     width: 150px;
@@ -1849,26 +1857,27 @@ gap: 550px;
     justify-content: start;
 }
 .shop-btn{
-    background-color: var(--elite-secondary)!important;
+    background: linear-gradient(180deg, #f1c27d 0%, #dbaf57 50%, #a6752c 100%);
 }
 .shop-btn:hover{
     color: black!important;
 }
-.prd-txt{
-    color: black!important;
+.prd-txt {
+    color: white !important;
+ 
 }
 body{
-    background-color: var(--elite-primary);
+    background-color: black;
 }
 .contact-main{
     background-color: var(--elite-primary)!important;
     margin-top: 5rem;
 }
 .form-control::placeholder{
-    color: black;
+    color: white;
 }
 .cntct-btn{
-    background-color: var(--elite-secondary);
+    background: linear-gradient(180deg, #f1c27d 0%, #dbaf57 50%, #a6752c 100%);
     width: 190px;
 }
 .cntct-btn:hover{
