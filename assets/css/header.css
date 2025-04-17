@@ -182,15 +182,16 @@
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  color: rgba(var(--color-white-rgb), 0.7);
+ color: black!important;
   letter-spacing: 1px;
   padding: 25px 0px;
   transition: var(--transition-base);
 }
 
+
 .header .mainnav ul.main-menu > li.active > a,
 .header .mainnav ul.main-menu > li > a:hover {
-  color: rgba(var(--color-white-rgb), 1);
+  color: rgba(var(--color-black), 1);
 }
 
 .header .mainnav ul.main-menu li:hover > ul {
@@ -553,7 +554,7 @@
   width: auto;
   height: auto;
   background-color: transparent;
-  color: var(--color-white);
+  color: black!important;
   font-size: 36px;
   border: none;
   outline: none;
@@ -702,7 +703,7 @@
   gap: 10px;
   padding: 16px 0px;
   border-bottom: 1px solid rgba(var(--color-dark-seven-rgb), 0.3);
-  color: rgba(var(--color-white-rgb), 0.7);
+  color: black!important;
 }
 
 .mr_menu ul.main-menu li.current > a, .mr_menu ul.main-menu li.active > a, .mr_menu ul.main-menu li:hover > a {
@@ -1086,7 +1087,7 @@ body.overlay_menu_active .wptb-overlay-contact {
   transform: perspective(300px) rotateX(0deg);
   transform-origin: top;
   position: fixed !important;
-  background-color: black;
+  background-color: white;
 }
 
 .header.sticky .header-top {
@@ -1104,6 +1105,7 @@ body.overlay_menu_active .wptb-overlay-contact {
 
 .header.sticky .mainnav ul.main-menu > li > a {
   padding: 20px 0px;
+  color: black!important;
 }
 
 .header.top-up {

@@ -23,6 +23,9 @@
   margin-right: 8px;
 }
 
+.product_details_section{
+  background-color: white!important;
+}
 .shop_filtering_method .view_type_wrapper .showing_results {
   
   font-size: 14px;
