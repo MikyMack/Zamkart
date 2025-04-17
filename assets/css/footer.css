@@ -5,7 +5,7 @@
     font-size: var(--fs-16);
     font-weight: var(--fw-light);
     line-height: 34px;
-    color: var(--color-white);
+    color: black!important;
     background-color: var(--color-footer-one);
     background-position: center;
     background-size: cover;
