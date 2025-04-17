@@ -1658,7 +1658,7 @@ color: white!important;
 
 }
 .banner-main{
-    background:white!important
+    background:#7f8c94!important
 }
 .banner-logo{
     border-radius: 10px;
@@ -1679,7 +1679,7 @@ color: white!important;
 
 }
 .about-main,section{
-    background-color:white!important ;
+    background-color:#c9c2c2!important ;
 }
 .expbtn:hover{
     color: white!important;
@@ -1724,11 +1724,11 @@ color: white!important;
     width: 400px;
 }
 .footer{
-    background-color: white!important;
+    background-color: #7f8c94!important;
 }
 
 .footer-main{
-    background-color: var(--elite-secondary);
+    background-color: #7f8c94;
     color: black!important;
     padding-top: 0px!important;
 }

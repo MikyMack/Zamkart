@@ -1087,7 +1087,7 @@ body.overlay_menu_active .wptb-overlay-contact {
   transform: perspective(300px) rotateX(0deg);
   transform-origin: top;
   position: fixed !important;
-  background-color: white;
+  background-color: #7F8C94;
 }
 
 .header.sticky .header-top {
