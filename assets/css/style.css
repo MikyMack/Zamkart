@@ -172,6 +172,9 @@
 .wptb-agency-experience .wptb-heading .wptb-image-single .wptb-item--image {
     margin-left: -60px;
 }
+.wptb-item--title{
+    color: white!important;
+}
 .wptb-agency-experience .wptb-heading .wptb-item--title span {
     font-family: var(--font-family-three);
     -webkit-text-stroke-width: 1px;
@@ -481,11 +484,11 @@
     border-radius: 20px;
 }
 .form-control:focus{
-    background-color: #E0B360!important;
+    background-color: #7F8D95!important;
     color: white!important;
 }
 .form-control{
-    background-color: #E0B360;
+    background-color: #7F8D95;
 }
 /* Partners Page */
 .wp-tb-partners-row {
@@ -1664,14 +1667,14 @@ color: white!important;
     border-radius: 10px;
 }
 .side-con-title,.side-con-title a{
-    color:black!important ;
+    color:white!important ;
 }
 .logo a img{
     border-radius: 10px!important;
 
 }
 .mobile-menu{
-    background-color: white;
+    background-color: #7f8d95;
 }
 .menu-icons i{
     color: white!important;
@@ -1687,8 +1690,8 @@ color: white!important;
 .expbtn{
     background-color: #e0b360!important;
 }
-.wrapper{
-    background-color: white;
+.wrapper,.product_details_section {
+    background-color: #c8c3c2!important;
 
 }
 .hm-prdct-img img{
@@ -1759,7 +1762,7 @@ color: white!important;
     left: 0;
     width: 100%;
     height: 65px;
-   background-color: white;
+   background-color: #7F8D95!important;
     box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -1770,19 +1773,21 @@ color: white!important;
     align-items: center;
     height: 100%;
 }
-
+.header .mainnav ul.main-menu li a{
+    color: white!important;
+}
 .elite-nav-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: all 0.3s ease;
     width: 25%;
 }
 .product_right .product_view_bottom .product_quantity .product_quantity_inner input{
-    color: black!important;
+    color: white!important;
 }
 .elite-nav-item.elite-active {
     color: #E0B360;
@@ -1847,7 +1852,7 @@ gap: 550px;
 
 }
 .footer-nav ul li a,.widget-title,.copyright p a,.ft-social li a{
-    color: black!important;
+    color: white!important;
 }
 .ft-social li a{
     border:1px solid black!important;
@@ -1901,11 +1906,14 @@ gap: 550px;
     color: black!important;
 }
 .prd-txt,.wptb-text-backdrop {
-    color: black !important;
+    color: white !important;
  
 }
+.text-outline{
+    color: white!important;
+}
 body{
-    background-color: white!important;
+    background-color: #C8C3C2!important;
 }
 .contact-main{
     background-color: var(--elite-primary)!important;
@@ -2083,8 +2091,8 @@ html{
             border-color: transparent transparent transparent white;
         }
         .wptb-about--text-one {
-            color: black!important;
+            color: white!important;
         }
         .wptb-about--text p{
-            color: black!important;
+            color: white!important;
         }

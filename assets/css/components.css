@@ -27,7 +27,7 @@ Ready Components Stylesheet
 .wptb-heading .wptb-item--title {
     position: relative;
     z-index: 1;
-    color: black!important;
+    color: white!important;
     font-size: var(--fs-50);
     font-weight: var(--fw-medium);
     line-height: var(--fs-60);
@@ -922,7 +922,7 @@ Ready Components Stylesheet
     font-size: 21.111vh;
     line-height: normal;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #2F2F2F;
+    -webkit-text-stroke-color: white;
     z-index: 0;
     position: absolute;
     bottom: -4.083vw;
@@ -1735,7 +1735,10 @@ Ready Components Stylesheet
     background-repeat: no-repeat;
     border-radius: 40px;
 }
-
+.wptb-heading .wptb-item--subtitle{
+    color: #E0B360!important;
+    font-size: 25px!important;
+}
 .wptb-slider.style14 .wptb-heading .wptb-item--subtitle {
     font-size: 15px;
     line-height: 21px;
@@ -2498,7 +2501,7 @@ Ready Components Stylesheet
     font-size: 10px;
     line-height: 20px;
     color: black!important;
-    background-color: black!important;
+    background-color: #E0B360!important;
     border: 1px solid var(--color-one);
     margin-right: 8px;
     box-shadow: none;
@@ -3587,7 +3590,9 @@ Ready Components Stylesheet
     line-height: 1.1;
     letter-spacing: -1.6px;
 }
-
+.wptb-counter1 .wptb-item--value,.wptb-counter1 .wptb-item--text{
+    color: white!important;
+}
 .wptb-client-review .wptb-item--inner .wptb--rating-label {
     color: var(--color-white);
     text-align: center;
@@ -6157,13 +6162,19 @@ svg.radial-progress {
     -webkit-animation: wptb_left_right 60s linear infinite;
     animation: wptb_left_right 60s linear infinite;
 }
+.buy-btn{
+    background-color: #E0B360!important;
+}
+.text-outline{
+    color: white!important;
+}
 .wptb-text-marquee1 .wptb-item--text {
     margin-bottom: 0;
     position: relative;
     display: flex;
     align-items: center;
     white-space: nowrap;
-    color: black!important;
+    color: white!important;
    
     text-align: center;
     font-size: 122px;
@@ -6560,7 +6571,7 @@ svg.radial-progress {
 	position:relative;
 	font-size:var(--fs-12);
 	color: black!important;
-    background-color:black!important;
+    background-color:#E0B360!important;
     border-width: 1px;
     border-style: solid;
     border-color: transparent;

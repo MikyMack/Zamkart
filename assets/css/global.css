@@ -676,7 +676,7 @@ textarea,
     font-weight: var(--fw-light);
     line-height: normal;
     color: white!important;
-    background-color: ;
+    background-color:#7F8D95 ;
     background-clip: padding-box;
     border: 1px solid var(--color-dark-seven);
     -webkit-border-radius: 0px;
