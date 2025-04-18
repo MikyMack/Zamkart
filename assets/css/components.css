@@ -27,7 +27,7 @@ Ready Components Stylesheet
 .wptb-heading .wptb-item--title {
     position: relative;
     z-index: 1;
-    color: white!important;
+    color: rgb(0, 0, 0)!important;
     font-size: var(--fs-50);
     font-weight: var(--fw-medium);
     line-height: var(--fs-60);

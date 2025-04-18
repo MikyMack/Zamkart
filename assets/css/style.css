@@ -1906,7 +1906,7 @@ gap: 550px;
     color: black!important;
 }
 .prd-txt,.wptb-text-backdrop {
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
  
 }
 .text-outline{
@@ -2091,8 +2091,8 @@ html{
             border-color: transparent transparent transparent white;
         }
         .wptb-about--text-one {
-            color: white!important;
+            color: rgb(0, 0, 0)!important;
         }
         .wptb-about--text p{
-            color: white!important;
+            color: rgb(0, 0, 0)!important;
         }
