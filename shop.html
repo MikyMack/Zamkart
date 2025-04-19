@@ -19,7 +19,7 @@
         <title>Zam Kart | Shop</title>    
         
         <!-- Styles Include -->
-        <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/main.css?v=5">
         
     </head>
 
@@ -236,54 +236,58 @@
         <main class="wrapper">
         
 
-			<section class="product_view">
+			<section class="product_view mt-4">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-7 pe-lg-5">
                             <div class="product_left">
                                 <div class="product_zoom">
-                                    <ul class="product_zoom_button_group" data-lenis-prevent="">
-                                        <li class="product_zoom_button">
-                                            <a class="selected" href="#" style="background-image: url('../assets/zamimg/products/pr-2.jpg');"></a>
-                                        </li>
-                                        <li class="product_zoom_button">
-                                            <a href="#" style="background-image: url('../assets/zamimg/products/pr-3.jpg');"></a>
-                                        </li>
-                                        <li class="product_zoom_button">
-                                            <a href="#" style="background-image: url('../assets/zamimg/products/pr-9.jpg');"></a>
-                                        </li>
-                                        <li class="product_zoom_button">
-                                            <a href="#" style="background-image: url('../assets/zamimg/products/pr-7.jpg');"></a>
-                                        </li>
-                                    </ul>
-                                
-                                    <div  class="product_zoom_container">
-                                        <div class="product_zoom_info selected">
-                                            <div class="product_image_zoom">
-                                                <img src="../assets/zamimg/products/pr-2.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                
-                                        <div class="product_zoom_info">
-                                            <div class="product_image_zoom">
-                                                <img src="../assets/zamimg/products/pr-3.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                
-                                        <div class="product_zoom_info">
-                                            <div class="product_image_zoom">
-                                                <img src="../assets/zamimg/products/pr-9.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                
-                                        <div class="product_zoom_info">
-                                            <div class="product_image_zoom">
-                                                <img src="../assets/zamimg/products/pr-7.jpg" alt="img">
-                                            </div>
-                                        </div>
+                                  <ul class="product_zoom_button_group" data-lenis-prevent="">
+                                    <li class="product_zoom_button">
+                                      <a class="selected" href="#" style="background-image: url('../assets/zamimg/products/pr-2.jpg');"></a>
+                                    </li>
+                                    <li class="product_zoom_button">
+                                      <a href="#" style="background-image: url('../assets/zamimg/products/pr-3.jpg');"></a>
+                                    </li>
+                                    <li class="product_zoom_button">
+                                      <a href="#" style="background-image: url('../assets/zamimg/products/pr-9.jpg');"></a>
+                                    </li>
+                                    <li class="product_zoom_button">
+                                      <a href="#" style="background-image: url('../assets/zamimg/products/pr-7.jpg');"></a>
+                                    </li>
+                                  </ul>
+                                                                   
+                                  <div class="product_zoom_container">
+                                    <div class="product_zoom_info selected">
+                                      <div class="product_image_zoom">
+                                        <img src="../assets/zamimg/products/pr-2.jpg" alt="img">
+                                        <div class="coming-soon-watermark">COMING SOON</div>
+                                      </div>
                                     </div>
+                                                                   
+                                    <div class="product_zoom_info">
+                                      <div class="product_image_zoom">
+                                        <img src="../assets/zamimg/products/pr-3.jpg" alt="img">
+                                        <div class="coming-soon-watermark">COMING SOON</div>
+                                      </div>
+                                    </div>
+                                                                   
+                                    <div class="product_zoom_info">
+                                      <div class="product_image_zoom">
+                                        <img src="../assets/zamimg/products/pr-9.jpg" alt="img">
+                                        <div class="coming-soon-watermark">COMING SOON</div>
+                                      </div>
+                                    </div>
+                                                                   
+                                    <div class="product_zoom_info">
+                                      <div class="product_image_zoom">
+                                        <img src="../assets/zamimg/products/pr-7.jpg" alt="img">
+                                        <div class="coming-soon-watermark">COMING SOON</div>
+                                      </div>
+                                    </div>
+                                  </div>
                                 </div>
-                            </div>
+                              </div>
                         </div>
                         <div class="col-lg-5 ps-lg-0 pe-lg-5">
                             <div class="product_right">
@@ -308,11 +312,11 @@
                                     <div class="product_quantity">
                                         <div class="pproduct_quantity_label prd-txt">Quantity</div>
                                         <div class="product_quantity_inner">
-                                            <span class="qty_btn product_quantity_subtract">
+                                            <span class="qty_btn product_quantity_subtract quantity-btn minus-btn">
                                                 <i class="bi bi-dash-lg prd-txt"></i>
                                             </span>
-                                                <input type="text" class="quantity prd-txt" id="product_quantity_input" placeholder="0" value="1">
-                                            <span class="qty_btn product_quantity_add">
+                                            <input style="color: black!important;" type="text" class="quantity prd-txt" id="product_quantity_input" placeholder="0" value="1" min="1" inputmode="numeric">
+                                            <span class="qty_btn product_quantity_add quantity-btn plus-btn">
                                                 <i class="bi bi-plus-lg prd-txt"></i>
                                             </span>
                                         </div>
@@ -348,7 +352,7 @@
                 </div>
             </section>
 
-            <div class="product_details_section ">							
+            <div class="product_details_section mb-3 ">							
                 <div class="container">
                     <div class="product_details_tab">
                         <ul class="nav">
@@ -543,11 +547,7 @@
 
         <!-- Product Image Zoom -->
         <script src="/assets/plugins/imagezoom/jquery.zoom.js"></script>
-        <script>
-            $(document).ready(function(){
-                $('.product_image_zoom').zoom();
-            });
-        </script>
+   
 
         
 
@@ -556,6 +556,49 @@
 
         <!-- Theme Custom JS -->
         <script src="../assets/js/theme.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const minusBtn = document.querySelector('.minus-btn');
+                const plusBtn = document.querySelector('.plus-btn');
+                const quantityInput = document.getElementById('product_quantity_input');
+                
+                // Set minimum value
+                const minValue = 1;
+                
+                // Update quantity when minus button is clicked
+                minusBtn.addEventListener('click', function() {
+                    let currentValue = parseInt(quantityInput.value) || 0;
+                    if (currentValue > minValue) {
+                        quantityInput.value = currentValue - 1;
+                    }
+                });
+                
+                // Update quantity when plus button is clicked
+                plusBtn.addEventListener('click', function() {
+                    let currentValue = parseInt(quantityInput.value) || 0;
+                    quantityInput.value = currentValue + 1;
+                });
+                
+                // Ensure input is valid when user types directly
+                quantityInput.addEventListener('input', function() {
+                    let value = this.value.replace(/[^0-9]/g, '');
+                    
+                    if (value === '' || parseInt(value) < minValue) {
+                        value = minValue.toString();
+                    }
+                    
+                    this.value = value;
+                });
+                
+                // Prevent form submission on Enter key
+                quantityInput.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                    }
+                });
+            });
+            </script>
     </body>
 
 <!-- Mirrored from wpthemebooster.com/demo/themeforest/html/kimono/dark/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Mar 2025 07:21:51 GMT -->

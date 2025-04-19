@@ -2091,8 +2091,19 @@ html{
             border-color: transparent transparent transparent white;
         }
         .wptb-about--text-one {
+<<<<<<< HEAD
             color: rgb(0, 0, 0)!important;
         }
         .wptb-about--text p{
             color: rgb(0, 0, 0)!important;
         }
+=======
+            color: white!important;
+            text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+        }
+        .wptb-about--text p{
+            color: black !important;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+        }
+     
+>>>>>>> fad8c7b (color changeed)
