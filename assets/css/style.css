@@ -2091,19 +2091,58 @@ html{
             border-color: transparent transparent transparent white;
         }
         .wptb-about--text-one {
-<<<<<<< HEAD
             color: rgb(0, 0, 0)!important;
         }
         .wptb-about--text p{
             color: rgb(0, 0, 0)!important;
         }
-=======
-            color: white!important;
-            text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+        .opac-img {
+            position: relative;
+            display: inline-block;
         }
-        .wptb-about--text p{
-            color: black !important;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+        
+        .coming-soon-wrapper {
+            position: relative;
+            display: inline-block;
+            
         }
-     
->>>>>>> fad8c7b (color changeed)
+        
+        .coming-soon-wrapper img {
+            opacity: 0.1;
+            display: block;
+        }
+        .hm-prdct-img img{
+            position: relative;
+            opacity: 0.1;
+        }
+        .cming-text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #000;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 1);
+            pointer-events: none;
+            width: 90%;
+            text-align: center; 
+       
+        }
+        .coming-soon-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #000;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 1);
+            pointer-events: none;
+            width: 90%;
+            text-align: center;
+        }
